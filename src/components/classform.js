@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class MyForm extends Component {
+class ClassForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -94,4 +94,4 @@ class MyForm extends Component {
   }
 }
 
-export default C;
+export default ClassForm;
