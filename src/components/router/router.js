@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import React from "react";
 
 import FunctionForm from "../functionalform";
-
+import ClassForm from "../classform";
 function Router() {
     return (
       <BrowserRouter>
@@ -22,7 +22,10 @@ function Router() {
       path: "/function",
       element: <FunctionForm />,
     },
-  
+    {
+      path: "/class",
+      element: <ClassForm />,
+    },
   
  
   ];
