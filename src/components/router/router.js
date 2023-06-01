@@ -3,6 +3,7 @@ import React from "react";
 
 import FunctionForm from "../functionalform";
 import ClassForm from "../classform";
+import App from "../../App";
 function Router() {
     return (
       <BrowserRouter>
@@ -21,6 +22,10 @@ function Router() {
     {
       path: "/function",
       element: <FunctionForm />,
+    },
+    {
+      path: "/",
+      element: <App />,
     },
     {
       path: "/class",
